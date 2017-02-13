@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_register_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/logo_two" />
+
+    <EditText
+        android:id="@+id/activity_register_userName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:hint="Please Enter Your Name"
+        android:padding="14dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/activity_register_userEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="@mipmap/ic_email"
+        android:drawableStart="@mipmap/ic_email"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="14dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/activity_register_registerButton"
+        android:layout_width="225dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_background"
+        android:text="Register"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/activity_register_logginButton"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_background"
+        android:text="Already Registered? Log In"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="inc.elarriero.android.pruebashopping">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".infraestructura.ShopingAplicacion"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_carrito"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".actividades.PantallaInicio"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreenStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".actividades.LoginActividad"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <activity
+            android:name=".actividades.MainActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".actividades.RegistroActividad"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <activity
+            android:name=".actividades.ConfiguracionActividad"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".actividades.ListaDetalleActividad"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+    </application>
+
+</manifest>

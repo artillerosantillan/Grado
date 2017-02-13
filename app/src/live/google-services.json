@@ -1,0 +1,78 @@
+{
+  "project_info": {
+    "project_number": "661380088437",
+    "firebase_url": "https://databaset-2e4a0.firebaseio.com",
+    "project_id": "databaset-2e4a0",
+    "storage_bucket": "databaset-2e4a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661380088437:android:181159fb5f8ac7c3",
+        "android_client_info": {
+          "package_name": "edu.galileo.android.pruebasfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661380088437-krrvgt91ga276op97tj03211ocftpcfm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtW0zMv7ToG7B2FUGClQP-vKwD9GaTvZI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661380088437:android:b6150daded96e1a9",
+        "android_client_info": {
+          "package_name": "inc.elarriero.android.pruebashopping.live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661380088437-krrvgt91ga276op97tj03211ocftpcfm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtW0zMv7ToG7B2FUGClQP-vKwD9GaTvZI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661380088437-krrvgt91ga276op97tj03211ocftpcfm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

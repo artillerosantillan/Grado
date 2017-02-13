@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ElArrieroShopping</string>
+    <string name="facebook_app_id">321013974962347</string>
+    <string name="pref_sort_list_name">pref_ordenar_lista_nombre</string>
+
+    <string name="pref_sort_list_dialog_title">OrdenarPor</string>
+
+
+    <string name="pref_entry_publishTime">Tiempo de publicación</string>
+    <string name="pref_entry_listName">Lista de nombres</string>
+    <string name="pref_entry_ownerEmail">Propietario</string>
+
+
+    <string name="pref_entry_publishTime_value">ordenarPorClave</string>
+    <string name="pref_entry_listName_value">OrdenarNombreLista</string>
+    <string name="pref_entry_ownerEmail_value">OrdenarPorEmail</string>
+
+    <string name="bought_by">Comprado por: %1$s</string>
+</resources>
